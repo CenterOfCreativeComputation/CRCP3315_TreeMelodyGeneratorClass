@@ -38,6 +38,10 @@ public class TreeMelodyManager extends MelodyManager implements Drawable {
     static String prependPath = "mid"  + sys.getSeparator();
     static String appendType = ".mid";
 
+    //changed 
+    float tempo = 120; 
+    String bus = "Bus 1"; //you need to make this match your own code / platform
+
 
     //String[] files = {"motive1Am", "motive2Am", "motive3Am", "motive1E", "motive2E", "motive3E", "MaryHadALittleLamb"};
     //String[] files = { "bwv799" };
